@@ -1,0 +1,11 @@
+rootProject.name = 'smartux-bff'
+include 'application'
+include 'boot'
+include 'domain'
+include 'infrastructure'
+include 'presentation'
+
+def subProjectDir = "subprojects";
+for (project in rootProject.children) {
+    project.projectDir = file("${subProjectDir}/${project.name}")
+}

@@ -1,0 +1,17 @@
+/.idea/
+/.gradle/
+/build/
+/gradle/
+/subprojects/boot/build/classes/
+/subprojects/boot/build/libs/
+/subprojects/boot/build/tmp/
+/subprojects/domain/build/classes/
+/subprojects/domain/build/libs/
+/subprojects/domain/build/tmp/
+/subprojects/presentation/build/classes/
+/subprojects/presentation/build/libs/
+/subprojects/presentation/build/tmp/
+/subprojects/infrastructure/build/tmp/
+/subprojects/infrastructure/build/libs/
+/subprojects/application/build/libs/
+/subprojects/application/build/tmp/
