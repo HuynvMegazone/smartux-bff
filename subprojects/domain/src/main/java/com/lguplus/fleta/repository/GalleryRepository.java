@@ -6,7 +6,7 @@ import com.lguplus.fleta.data.entity.Gallery;
 import java.util.List;
 
 public interface GalleryRepository {
-    List<GalleryInfo> getGalleryCateList(String galleryid);
+    List<GalleryInfo> getGalleryCateList();
 
     Gallery getGalleryById(String galleryid);
 }

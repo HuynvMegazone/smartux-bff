@@ -18,9 +18,9 @@ public interface GalleryOracleRepository extends GalleryRepository, JpaRepositor
 
     @Query(name = QueryKey.GET_GALLERY_LIST_ALBUM_KEY,
             nativeQuery = true)
-    @Cacheable(value = CacheKey.AB_CATEGORY_KEY, key = "#galleryid")
+    @Cacheable(value = CacheKey.AB_CATEGORY_KEY)
     @Override
-    List<GalleryInfo> getGalleryCateList(@Param("galleryid") String galleryid);
+    List<GalleryInfo> getGalleryCateList();
 
     @Query(name = QueryKey.GET_GALLERY_ALBUM_KEY,
             nativeQuery = true)

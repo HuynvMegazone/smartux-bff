@@ -19,8 +19,8 @@ public class GalleryServiceImpl implements GalleryService {
     }
 
     @Override
-    public List<GalleryInfo> getGalleryCateList(String galleryid) {
-        List<GalleryInfo> ls = galleryRepository.getGalleryCateList(galleryid);
+    public List<GalleryInfo> getGalleryCateList() {
+        List<GalleryInfo> ls = galleryRepository.getGalleryCateList();
         return ls;
     }
 
