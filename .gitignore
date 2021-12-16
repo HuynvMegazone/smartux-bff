@@ -15,3 +15,4 @@
 /subprojects/infrastructure/build/libs/
 /subprojects/application/build/libs/
 /subprojects/application/build/tmp/
+/logs

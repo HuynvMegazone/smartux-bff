@@ -42,7 +42,7 @@
         </query>
     </named-native-query>
 
-    <named-native-query name="GalleryRepository.getGalleryById" result-class="com.lguplus.fleta.data.entity.Gallery">
+    <named-native-query name="GalleryRepository.getGalleryById" result-set-mapping="GalleryResult">
         <query>
                 SELECT      *
                 FROM        SMARTUX.PT_UX_GALLERY A
